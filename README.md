@@ -16,6 +16,7 @@ A real-time co-op party game where 2–6 players join from their phones with a r
 - Wrote a seeded kitchen generator that builds a new puzzle every shift, with out-of-stock substitutions, dietary requests, and "double" orders, and verified it across 90,000 generated dishes with no unsolvable or ambiguous recipes.
 - Fixed a bug where correct plates failed after the first round: a wrong serve left its ingredients on the plate, and taps could reach the server out of order on slow connections. Cleared the plate after mistakes, sent taps in order, and added regression tests.
 - Demonstrates serverless design, shared-state concurrency, role-based data filtering, and automated testing with simulated full games for every room size.
+- Entered in Handshake's AI Skills Studio challenge with OpenAI (October 2026).
 
 ## Built With
 
