@@ -1,0 +1,10 @@
+[build]
+command = "node --check src/game-core.mjs && node --check public/app.js"
+publish = "public"
+functions = "netlify/functions"
+
+[build.environment]
+NODE_VERSION = "22.13.0"
+
+[functions]
+node_bundler = "esbuild"
